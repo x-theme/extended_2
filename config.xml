@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <config>
-<<<<<<< HEAD
 	<type>theme</type>
-=======
->>>>>>> e90264b34a78cc25dc6ca570041540758b1b8cf9
 	<view>pc,mobile</view>
+	<id>theme_extended_2</id>
 	<name>
 		<en>Extended.kr Theme</en>
 		<ko>Extended.kr Theme</ko>
