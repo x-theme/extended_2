@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 <config>
+	<id>theme_extended_2</id>
 	<type>theme</type>
 	<view>pc,mobile</view>
-	<id>theme_extended_2</id>
+	<category>company</category>
 	<name>
 		<en>Extended.kr Theme</en>
 		<ko>Extended.kr Theme</ko>
 	</name>
 	<version>0.1</version>
+	<author>JaeHo Song</author>
+	<email>thruthesky@gmail.com</email>
 	<short>
-		<en></en>
-		<ko></ko>
+		<en>Extended.KR Web Site Theme</en>
+		<ko>Extended.KR Web Site Theme</ko>
 	</short>
 	<detail>
 		<en></en>
