@@ -29,7 +29,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 				else {?><a href='<?=$log_href?>'>로그인</a> | <a href='<?=$profile_msg_url?>'>회원가입</a><?}?>
 			</div>
 			<div class='logo-wrapper'>
-				<div class='logo'><a href='<?=G5_URL?>'><img src='<?=x::url_theme()?>/img/logo.png'/></a></div>
+				<div class='logo'><a href='<?=g::url()?>'><img src='<?=x::url_theme()?>/img/logo.png'/></a></div>
 			</div>
 			<div class='right_main_menus above-400px'>
 				<ul>
