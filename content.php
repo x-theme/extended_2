@@ -2,7 +2,7 @@
 
 <table cellspacing='0' cellpadding='0' width='100%' class='content-table'>
 	<tr valign='top'>
-		<td class='left-content'>
+		<td class='left-content' width='358'>
 			<div class='left-main-banner'>
 				<img src="<?=x::theme_url('img/left_main_banner.png')?>" usemap="main_banner_map"/>
 				<map name="main_banner_map">
@@ -37,21 +37,23 @@
 				</div>
 			</div>
 			<span style='clear: left; display: block;'></span>
-			<table cellspacing='0' cellpadding='0' width='100%' class='template_and_skin'>
-				<tr valign='top'>
-					<td class='template-gallery-container'>
-							<div class='inner'>
-								<? include x::theme('template_gallery') ?>
-							</div>
-					</td>
-					<td width='3.5%'></td>
-					<td class='skin-gallery-container'>
-						<div class='inner'>
-							<? include x::theme('skin_gallery_thumbnail') ?>
-						</div>
-					</td>
-				</tr>
-			</table>
+			
+			<div class='right-forum-container forum_one' >
+				<div class='inner'>
+					<div>
+						<?=latest('x-latest-forums-extended-2', bo_table(6), 8, 20)?>
+					</div>
+				</div>
+			</div>
+			<div class='right-forum-container forum_two'>
+				<div class='inner'>
+					<div>
+						<?=latest('x-latest-forums-extended-2', bo_table(5), 8, 20)?>					
+					</div>
+				</div>
+			</div>
+			<span style='clear: left; display: block;'></span>
+			
 		</td>
 	</tr>
 </table>
