@@ -10,13 +10,13 @@
 					<area shape="rect" coords="48,368,139,391" href="<?=G5_BBS_URL?>/board.php?bo_table=ms_www_5"/>
 					
 					<!--top right-->
-					<area shape="rect" coords="205,360,326,389" href="<?=G5_BBS_URL?>/board.php?bo_table=ms_www_5"/>
+					<area shape="rect" coords="205,360,326,389" href="<?=g::url()?>?module=update&action=admin_list&type=theme"/>
 
 					<!--bottom left-->
-					<area shape="rect" coords="37,433,154,458" href="j<?=G5_BBS_URL?>/board.php?bo_table=ms_www_5"/>						
+					<area shape="rect" coords="37,433,154,458" href="<?=g::url()?>?module=update&action=admin_list&type=widget"/>						
 					
 					<!--bottom right-->
-					<area shape="rect" coords="206,433,325,460" href="j<?=G5_BBS_URL?>/board.php?bo_table=ms_www_5"/>						
+					<area shape="rect" coords="206,433,325,460" href="<?=g::url()?>?module=update&action=admin_list&type=module"/>						
 				</map>
 			</div>
 		</td>
