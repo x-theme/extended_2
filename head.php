@@ -34,9 +34,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 			<div class='right_main_menus above-400px'>
 				<ul>
 					<li class='more-menu'><a href='javascript:void(0)'>More</a><li>
-					<li><a href='<?=g::url()?>/?page=intro'>X 빌더소개 </a></li>
 					<li class='menu-2'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_4'>자유토론</a></li>
 					<li class='menu-3'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_2'>질문답변</a></li>
+					<li class='menu-2'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_6'>팁 정보공유</a></li>
 					<li class='menu-4'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_5'>다운로드</a></li>
 					<li><a href='<?=g::url()?>/?module=update&action=list'>갤러리</a></li>
 				</ul>
@@ -48,7 +48,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 				<ul>
 					<li class='more-menu'><a href='javascript:void(0)'>More</a><li>
 					<li><a href='<?=g::url()?>/?page=intro'>X 빌더소개 </a></li>
-					<li><a href='<?=g::url()?>/?page=template_main'>템플릿</a></li>
+					<li><a href='<?=g::url()?>/?module=update&action=list'>갤러리</a></li>
 				</ul>
 				<div style='clear:both;'></div>
 			</div>
@@ -59,6 +59,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 			<ul>
 				<li><a href='<?=G5_BBS_URL?>/write.php?bo_table=ms_www_2'>질문과답변</a></li>
 				<li><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_3'>자유게시판</a></li>
+				<li><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_6'>팁 정보공유</a></li>
 				<li class='last-menu'><a href='<?=g::url()?>/?page=ms_www_4'>다운로드</a></li>
 			</ul>
 		<div class='close-menu'>X</div>
