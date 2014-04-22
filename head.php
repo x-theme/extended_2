@@ -25,7 +25,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 	<div class='header' style='background: url("<?=x::theme_url('img/bg_pattern.png')?>")'>
 		<div class='inner'>
 			<div class='login-signup'>
-				<? if ( login() ) { ?><a href='<?=$profile_msg_url?>'><?=$member['mb_nick']?> 로그인</a> | <a href='<?=$log_href?>'>로그아웃</a><?}
+				<? if ( login() ) { ?><a href='<?=$profile_msg_url?>'><?=$member['mb_nick']?></a> <a href="<?=url_bbs()?>/memo.php" target="_blank" class='user_memo'>[<?=g::memo_new()?>]</a> | <a href='<?=$log_href?>'>로그아웃</a><?}
 				else {?><a href='<?=$log_href?>'>로그인</a> | <a href='<?=$profile_msg_url?>'>회원가입</a><?}?>
 			</div>
 			<div class='logo-wrapper'>
