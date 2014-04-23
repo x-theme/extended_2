@@ -32,4 +32,14 @@ $(function(){
 		$(".menu-more-640px").slideToggle();
 	});
 	
+	$(window).scroll(function(){
+		if( $(window).height() > 888 ) {
+		$(".footer-container").addClass("fixed_bottom");
+		
+		}
+		else $(".footer-container").removeClass("fixed_bottom");
+	});
+	
+
+	
 });

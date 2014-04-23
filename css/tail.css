@@ -2,8 +2,13 @@
 .footer-container {
 	width: 100%;
 	border-top: solid 2px #5b9fb9;
-	background: #f4f9f9;
+	background: #f7f7f7;
 	padding: 36px 0;
+}
+
+.footer-container.fixed_bottom {
+	position: fixed;
+	bottom: 0;
 }
 
 .footer-container .footer {
