@@ -228,6 +228,15 @@
 }
 
 
+.memo_new {
+	display:inline-block;
+	padding: 1px 5px;
+	background-color: white;
+	color:red;
+	border-radius: 48%;
+}
+
+
 /**medias**/
 @media all and ( max-width: 990px ) {	
 	.x-latest-forums-extended-2 ul li:nth-child(8) {
