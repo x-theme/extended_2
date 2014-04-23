@@ -7,7 +7,7 @@
 }
 
 .footer-container.fixed_bottom {
-	position: fixed;
+	/** position: fixed; // is this a bug? it blocs content*/
 	bottom: 0;
 }
 
