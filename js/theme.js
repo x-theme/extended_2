@@ -32,4 +32,6 @@ $(function(){
 		$(".menu-more-640px").slideToggle();
 	});
 	
+	if( $(window).height() > 888 ) $(".footer-container").addClass("fixed_bottom");
+	else $(".footer-container").removeClass("fixed_bottom");
 });
