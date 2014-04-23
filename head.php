@@ -9,15 +9,15 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 <?
 		if( $member['mb_id'] ) {
 			$login_msg = "로그아웃";			
-			$log_href = G5_BBS_URL."/logout.php";			
+			$log_href = url_bbs()."/logout.php";			
 			$profile_msg = "회원정보";
-			$profile_msg_url = G5_BBS_URL."/member_confirm.php?url=register_form.php";
+			$profile_msg_url = url_bbs()."/member_confirm.php?url=register_form.php";
 		}
 		else {
 			$login_msg = "로그인";
-			$log_href = G5_BBS_URL."/login.php";			
+			$log_href = url_bbs()."/login.php";			
 			$profile_msg = "회원가입";
-			$profile_msg_url = G5_BBS_URL."/register.php";			
+			$profile_msg_url = url_bbs()."/register.php";			
 		}
 	?>
 	<!--‘X’ 빌더 소개 질문과답변 자유게시판 다운로드 설치 사이트 -->
@@ -41,16 +41,17 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 				<a href='<?=$profile_msg_url?>'>회원가입</a><?}?>
 
 			</div>
+
 			<div class='logo-wrapper'>
 				<div class='logo'><a href='<?=g::url()?>'><img src='<?=x::url_theme()?>/img/logo.png'/></a></div>
 			</div>
 			<div class='right_main_menus above-400px'>
 				<ul>
 					<li class='more-menu'><a href='javascript:void(0)'>More</a><li>
-					<li class='menu-3'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_2'>질문답변</a></li>
-					<li class='menu-2'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_6'>팁 정보공유</a></li>
-					<li class='menu-2'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_1'>건의,요청</a></li>
-					<li class='menu-4'><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_5'>다운로드</a></li>
+					<li class='menu-3'><a href='<?=url_bbs()?>/board.php?bo_table=ms_www_2'>질문답변</a></li>
+					<li class='menu-2'><a href='<?=url_bbs()?>/board.php?bo_table=ms_www_6'>팁 정보공유</a></li>
+					<li class='menu-2'><a href='<?=url_bbs()?>/board.php?bo_table=ms_www_1'>건의,요청</a></li>
+					<li class='menu-4'><a href='<?=url_bbs()?>/board.php?bo_table=ms_www_5'>다운로드</a></li>
 					<li><a href='<?=g::url()?>/?module=update&action=list'>갤러리</a></li>
 				</ul>
 				<div style='clear:both;'></div>
@@ -70,9 +71,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 	<div class='menu-more-640px'>
 		<div class='inner'>
 			<ul>
-				<li><a href='<?=G5_BBS_URL?>/write.php?bo_table=ms_www_2'>질문과답변</a></li>
-				<li><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_6'>팁 정보공유</a></li>
-				<li><a href='<?=G5_BBS_URL?>/board.php?bo_table=ms_www_1'>건의,요청</a></li>
+				<li><a href='<?=url_bbs()?>/write.php?bo_table=ms_www_2'>질문과답변</a></li>
+				<li><a href='<?=url_bbs()?>/board.php?bo_table=ms_www_6'>팁 정보공유</a></li>
+				<li><a href='<?=url_bbs()?>/board.php?bo_table=ms_www_1'>건의,요청</a></li>
 				<li class='last-menu'><a href='<?=g::url()?>/?page=ms_www_5'>다운로드</a></li>
 			</ul>
 		<div class='close-menu'>X</div>
