@@ -27,7 +27,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 			<div class='login-signup'>
 
 				<? if ( login() ) { ?><a href='<?=$profile_msg_url?>'><?=$member['mb_nick']?></a> | 
-				<a href='<?=url_memo()?>' target='_blank'>
+				<a href='<?=url_memo()?>' target='_blank' class='win_memo'>
 					쪽지
 					<?
 						$new = g::memo_new();
