@@ -32,14 +32,14 @@
 				<en>Menu Left</en>
 				<ko>왼쪽 메뉴</ko>
 			</name>
-			<max>4</max>
+			<max>0</max>
 		</left>
 		<right>
 			<name>
 				<en>Menu Right</en>
 				<ko>오른쪽 메뉴</ko>
 			</name>
-			<max>1</max>
+			<max>0</max>
 		</right>
 		<bottom>
 			<name>
